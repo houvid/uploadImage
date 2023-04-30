@@ -1,0 +1,27 @@
+.imagen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px dashed #ccc;
+  padding: 20px;
+}
+
+.imagen {
+  max-width: 300px;
+  max-height: 300px;
+}
+.boton-carga {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.boton-carga:hover {
+  background-color: #0062cc;
+}
+

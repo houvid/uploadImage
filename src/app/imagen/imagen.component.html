@@ -1,0 +1,11 @@
+<div class="imagen-container">
+  <div>
+    <input class="boton-carga" type="file" (change)="onFileSelected($event)">
+  </div>
+  <div>
+    <img class="imagen" *ngIf="imageUrl" [src]="imageUrl" alt="img subu">
+  </div>
+
+</div>
+
+
